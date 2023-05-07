@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bài tập 1: Tìm số nguyên dương nhỏ nhất sao cho: 1 + 2 + ... + n > 10000</h1>
+        <div class="mb-3">
+            <label for="">Nhập số bất kỳ</label>
+            <input type="text" class="form-control" id="soNguyen">
+        </div>
+        <button class="btn btn-success text-white" onclick="tinhTongSoNguyenDuong()">
+            Bắt đầu tính
+        </button>
+        <div class="bg-info bg-opacity-75 p-2 mt-3 bai1"></div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <h1>Bài tập 2: Viết chương trình nhập vào 2 số X và N, tính tổng: S(n) = x + x^2 + x^3 + ... + x^n</h1>
+        <div class="mb-3">
+            <label for="">Nhập số X bất kỳ</label>
+            <input type="text" class="form-control" id="soX">
+        </div>
+        <div class="mb-3">
+            <label for="">Nhập số N bất kỳ</label>
+            <input type="text" class="form-control" id="soN">
+        </div>
+        <button class="btn btn-success text-white" onclick="tinhTongSn()">
+            Bắt đầu tính
+        </button>
+        <div class="bg-info bg-opacity-75 p-2 mt-3 bai2"></div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <h1>Bài tập 3: Nhập vào n. Tính giai thừa 1*2*...n</h1>
+        <div class="mb-3">
+            <label for="">Nhập số N bất kỳ</label>
+            <input type="text" class="form-control" id="soGiaiThua">
+        </div>
+        <button class="btn btn-success text-white" onclick="tinhGiaiThua()">
+            Bắt đầu tính
+        </button>
+        <div class="bg-info bg-opacity-75 p-2 mt-3 bai3"></div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <h1>Bài tập 4: Viết chương trình khi click vào button sẽ in ra 10 thẻ div. Nếu div nào vị trí chẵn thì bg màu đỏ
+            và lẻ thì bg màu xanh</h1>
+        <button class="btn btn-success text-white" onclick="chanDoLeXanh()">
+            Đổi màu
+        </button>
+        <div class="p-2 mt-3 bai4">1</div>
+        <div class="p-2 mt-3 bai4">2</div>
+        <div class="p-2 mt-3 bai4">3</div>
+        <div class="p-2 mt-3 bai4">4</div>
+        <div class="p-2 mt-3 bai4">5</div>
+        <div class="p-2 mt-3 bai4">6</div>
+        <div class="p-2 mt-3 bai4">7</div>
+        <div class="p-2 mt-3 bai4">8</div>
+        <div class="p-2 mt-3 bai4">9</div>
+        <div class="p-2 mt-3 bai4">10</div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <h1>Bài tập 5: Viết chương trình có 1 ô input, 1 ô button. Khi click vào button thì in ra các số nguyên tố từ 1 tới giá trị của ô input</h1>
+        <div class="mb-3">
+            <label for="">Nhập số tự nhiên N bất kỳ</label>
+            <input type="text" class="form-control" id="soTuNhien">
+        </div>
+        <button class="btn btn-success text-white" onclick="timSoNguyenTo()">
+            Hiện các số nguyên tố
+        </button>
+        <div class="bg-info bg-opacity-75 p-2 mt-3 bai5"></div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
