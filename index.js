@@ -68,18 +68,18 @@ function tinhGiaiThua() {
 */
 
 function chanDoLeXanh()
-{
-    var doiMau = document.getElementsByClassName("bai4");
-    for (var i = 0; i < doiMau.length; i++){
+{   var doiMau = "";
+    for (var i = 1; i <= 10; i++){
         // Vị trí chẵn => màu đỏ
-        if ((i + 1) % 2 == 0){
-            doiMau[i].style.background = "red";
+        if (i % 2 == 0){
+            doiMau += `<div class="p-2 mt-3 bai4 bg-danger">` + i + `</div>`;
         }
         else { 
             // Vị trí lẽ => màu xanh
-            doiMau[i].style.background = "blue";
+            doiMau += `<div class="p-2 mt-3 bai4 bg-info">` + i + `</div>`;
         }
     }
+    document.querySelector('.bai4').innerHTML = doiMau;
 }
 
 
